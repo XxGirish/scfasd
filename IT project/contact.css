@@ -1,0 +1,91 @@
+.p10-01{
+    margin: 20px 0px;
+}
+.p10-01 h3{
+    text-align:start;
+    margin-left: 200px;
+    font-size: 40px;
+    
+}
+.p10-02{
+    /* border: 3px solid black; */
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1100px;
+    margin: 60px 150px 6px 150px;
+}
+.p10-02-01{
+    /* border: 3px solid red; */
+    width: 500px;
+}
+.p10-form{  
+    padding: 0px 0px 20px 0px;
+}
+.p10-form input, .p10-form textarea{
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: #efefef;
+    padding: .9em .7em;
+    border: 3px solid #efefef;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    resize: none;
+    box-shadow: 0px 1px 1px 0px black;
+}
+.p10-form input:focus, .p10-form textarea:focus{
+    transition: 1s;
+    outline: none;
+    box-sizing: border-box;
+    /* border: none; */
+    box-shadow: 0px 0px 0px 0px white;
+    border: 3px solid rgb(46, 151, 236);   
+}
+.p10-form button{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: #a3c962;
+    font-size: 14px;
+    letter-spacing: 2px;
+    outline: none;
+    width: 100%;
+    
+    border-radius: 20px;
+    border: 2px solid #fff;
+    padding: 10px 0px;
+}
+.p10-last{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.p10-contact{
+   
+    width: 1100px;
+    height: 130px;
+    margin: 0px 0px 4px -40px;
+    display: flex;
+}
+.p10-contact-01{
+    
+    width: 180px;
+}
+.p10-contact-01 i{
+    font-size: 35px;
+    margin: 30px 105px;
+}
+.p10-contact-01 h3{
+    color: #a3c962;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0px 0px 15px 0px;
+}
+.p10-contact-01 p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+}
